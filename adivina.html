@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <center>
+        <div id="presentacion">
+     <h3 class="anuncio">Bienvenido a</h3>
+    <h1>ADIVINA EL NÚMERO!</h1>
+    <h3 class="anuncio">Da click para jugar</h3><br>
+    <input type="button" value="JUGAR" id="boton" class="boton"><br>
+        </div>
+   
+    <h1 id="titulo">ADIVINA EL NÚMERO!</h1>
+
+    <div id="peticion">
+        <h2>Dime entre que número y que numero quieres que piense un número</h2><br>
+        <input type="number" id="izquierda"> - <input type="number" id="derecha"><br><br>
+        <input type="button" value="PENSAR!" id="adivina" class="boton">
+    </div>
+
+    <h2 id="confirmacion">
+    </h2>
+
+    <div id="listo">
+       <input type="number" id="pensamiento"><br><br>
+       <button class="boton" id="probar">Probar</button> 
+    </div><br>
+
+    <div id="beredicto">
+    </div>
+
+    <div id="pista">      
+    </div><br>
+
+    <input type="text" value="?" id="misterio"><br>
+
+    <div id="desarrollo">
+    </div><br><br>
+    
+    <button class="boton" id="cierre" onclick="reinicio();">SALIR</button>
+    
+
+    <script src="elNumero.js"></script>
+</center> 
+</body>
+</html>
