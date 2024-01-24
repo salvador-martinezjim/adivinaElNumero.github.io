@@ -64,13 +64,13 @@ function jugar(){
      if(secreto==usuario){
         beredicto.innerHTML="CORRECTO" + "<br>" + "El número secreto es: ";
         if(intentos<5){
-           imprimir.innerHTML="Te tomaste: " + intentos + " intentos"+"<br>"+ "MUY BIEN! Y FELIZ CUMPLEAÑOS";
+           imprimir.innerHTML="Te tomaste: " + intentos + " intentos";
         }
         if(intentos>=5 && intentos<=10){
-            imprimir.innerHTML="Te tomaste: " + intentos +" intentos"+"<br>"+ "Nada Mal Y FELIZ CUMPLEAÑOS";
+            imprimir.innerHTML="Te tomaste: " + intentos +" intentos";
         }
         if(intentos>10){
-            imprimir.innerHTML="Te tomaste: " + intentos+" intentos" +"<br>"+ "Que pesimo pero FELIZ CUMPLEAÑOS";
+            imprimir.innerHTML="Te tomaste: " + intentos+" intentos";
         }
         misterio.value=secreto;
         document.getElementById("listo").style.display="none";
